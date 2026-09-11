@@ -13,7 +13,9 @@
       "category": "Digital",
       "price_mga": 50000.0,
       "margin_mga": 35000.0,
+      "margin_pct": 70.0,
       "roi_pct": 233.33,
+      "description": "CV professionnel clair, structur? et adapt? ? votre profil pour vos candidatures et opportunit?s.",
       "status": "AVAILABLE",
       "execution_mode": "VERIFICATION_ONLY",
       "external_action": false
@@ -24,7 +26,9 @@
       "category": "Digital",
       "price_mga": 20000.0,
       "margin_mga": 15000.0,
+      "margin_pct": 75.0,
       "roi_pct": 300.0,
+      "description": "Lettre professionnelle personnalis?e pour candidature, demande ou d?marche administrative.",
       "status": "AVAILABLE",
       "execution_mode": "VERIFICATION_ONLY",
       "external_action": false
@@ -35,7 +39,9 @@
       "category": "Service",
       "price_mga": 30000.0,
       "margin_mga": 20000.0,
+      "margin_pct": 66.67,
       "roi_pct": 200.0,
+      "description": "Diagnostic informatique orient? identification de panne, ?tat du poste et recommandations d?action.",
       "status": "AVAILABLE",
       "execution_mode": "VERIFICATION_ONLY",
       "external_action": false
@@ -46,7 +52,9 @@
       "category": "Digital",
       "price_mga": 150000.0,
       "margin_mga": 90000.0,
+      "margin_pct": 60.0,
       "roi_pct": 150.0,
+      "description": "Pack de cr?ation d?un catalogue commercial structur? pour pr?senter vos produits ou services.",
       "status": "AVAILABLE",
       "execution_mode": "VERIFICATION_ONLY",
       "external_action": false
@@ -57,7 +65,9 @@
       "category": "Service",
       "price_mga": 40000.0,
       "margin_mga": 15000.0,
+      "margin_pct": 37.5,
       "roi_pct": 60.0,
+      "description": "Support informatique pour assistance, configuration, r?solution de probl?mes et conseils pratiques.",
       "status": "AVAILABLE",
       "execution_mode": "VERIFICATION_ONLY",
       "external_action": false
