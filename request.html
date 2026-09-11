@@ -2,18 +2,19 @@
 <html lang="fr">
 <head><link rel="icon" href="assets/brand/tms-logo.svg" type="image/svg+xml">
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TMS — Nouvelle demande</title><link rel="stylesheet" href="css/style.css">
+<title>TMS — Demande / Commande</title><link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/brand/tms-logo.svg" alt="TMS"><small>TECH • DIGITAL • AI</small></a><a class="nav-cta" href="index.html">← Accueil</a></header>
+<header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/brand/tms-logo.svg" alt="TMS"><small>TECH • DIGITAL • AI</small></a><a class="nav-cta" href="catalog.html">← Catalogue</a></header>
 <main class="section request-page">
-<div class="section-head"><p class="eyebrow">TMS PORTAL • REQUEST</p><h1>Décrire votre<br><em>besoin.</em></h1><p class="lead">Votre demande est préparée pour le futur système TMS de traitement, suivi et automatisation.</p></div>
+<div class="section-head"><p class="eyebrow">TMS PORTAL • ORDER INTAKE</p><h1>Demander ou<br><em>commander.</em></h1><p class="lead">Décrivez votre besoin ou sélectionnez une offre. Cette étape crée une demande commerciale contrôlée ; aucun paiement ni livraison externe n'est exécuté.</p></div>
 <form id="requestForm" class="request-form">
 <label>Nom / entreprise<input name="name" required placeholder="Votre nom ou entreprise"></label>
 <label>Email<input type="email" name="email" required placeholder="vous@exemple.com"></label>
-<label>Type de demande<select name="type" required><option value="">Sélectionner</option><option>TMS AI</option><option>TMS DIGITAL</option><option>TMS TOOLKIT</option><option>Service / projet</option><option>Support</option></select></label>
-<label>Votre besoin<textarea name="message" required rows="7" placeholder="Décrivez votre projet ou votre problème..."></textarea></label>
-<button class="btn primary" type="submit">Envoyer la demande →</button>
+<label>Offre<input id="offerId" name="offer_id" placeholder="Ex. OFFER-001" autocomplete="off"></label>
+<label>Type<select name="type" required><option value="">Sélectionner</option><option value="COMMANDE_OFFRE">Commande d'une offre</option><option value="TMS AI">TMS AI</option><option value="TMS DIGITAL">TMS DIGITAL</option><option value="TMS TOOLKIT">TMS TOOLKIT</option><option value="Service / projet">Service / projet</option><option value="Support">Support</option></select></label>
+<label>Besoin / instructions<textarea name="message" required rows="7" placeholder="Décrivez l'offre, la quantité ou le besoin..."></textarea></label>
+<button class="btn primary" type="submit">Créer la demande →</button>
 <p id="formStatus" class="form-status" role="status"></p>
 </form>
 </main>
