@@ -1,77 +1,77 @@
 [
     {
-        "Path":  ".nojekyll",
-        "SHA256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
-        "Bytes":  0
+        "Path": ".nojekyll",
+        "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Bytes": 0
     },
     {
-        "Path":  "assets\\brand\\tms-logo.svg",
-        "SHA256":  "D4AF4DDD563C5AA08ADBDAD84E96559DCBAA46F40C4C86288062BD7753B02739",
-        "Bytes":  520
+        "Path": "assets\\brand\\tms-logo.svg",
+        "SHA256": "D4AF4DDD563C5AA08ADBDAD84E96559DCBAA46F40C4C86288062BD7753B02739",
+        "Bytes": 520
     },
     {
-        "Path":  "catalog.html",
-        "SHA256":  "81F3FB1268891D782099137A5ABFE2FBB8D38C82C11466146FA460603BBDC0A9",
-        "Bytes":  2730
+        "Path": "catalog.html",
+        "SHA256": "81F3FB1268891D782099137A5ABFE2FBB8D38C82C11466146FA460603BBDC0A9",
+        "Bytes": 2730
     },
     {
-        "Path":  "catalog\\catalog.json",
-        "SHA256":  "99FC3E9771937F0A0E763A657F00F5295E03E21C07DA50BAD82EA284A161E608",
-        "Bytes":  2586
+        "Path": "catalog\\catalog.json",
+        "SHA256": "99FC3E9771937F0A0E763A657F00F5295E03E21C07DA50BAD82EA284A161E608",
+        "Bytes": 2586
     },
     {
-        "Path":  "css\\style.css",
-        "SHA256":  "1B69D59B132CF685A4E0981A1219779AE2F250040E6AFB6C820FFF0294BAB950",
-        "Bytes":  13402
+        "Path": "css\\style.css",
+        "SHA256": "1B69D59B132CF685A4E0981A1219779AE2F250040E6AFB6C820FFF0294BAB950",
+        "Bytes": 13402
     },
     {
-        "Path":  "index.html",
-        "SHA256":  "49F2D65E1DB3D516888142DCEE9CC2E52D1C8C72955435448B72A4A6BA75EDEA",
-        "Bytes":  6050
+        "Path": "index.html",
+        "SHA256": "49F2D65E1DB3D516888142DCEE9CC2E52D1C8C72955435448B72A4A6BA75EDEA",
+        "Bytes": 6050
     },
     {
-        "Path":  "js\\app.js",
-        "SHA256":  "955EB8831104CE3F3C92AF1B0442ABA07077C781718A28449593DF3C715D37F2",
-        "Bytes":  1109
+        "Path": "js\\app.js",
+        "SHA256": "955EB8831104CE3F3C92AF1B0442ABA07077C781718A28449593DF3C715D37F2",
+        "Bytes": 1109
     },
     {
-        "Path":  "js\\catalog.js",
-        "SHA256":  "EA60BEADC5C5FCE6D72548BAEA58F748BC68A0F45A4766732F8590A33EB91B56",
-        "Bytes":  1156
+        "Path": "js\\catalog.js",
+        "SHA256": "EA60BEADC5C5FCE6D72548BAEA58F748BC68A0F45A4766732F8590A33EB91B56",
+        "Bytes": 1156
     },
     {
-        "Path":  "js\\product-preview.js",
-        "SHA256":  "7F4AE307E6A9311104C85FBC742A25DDFF562B83A00985D84D79FF0964A88601",
-        "Bytes":  2496
+        "Path": "js\\product-preview.js",
+        "SHA256": "7F4AE307E6A9311104C85FBC742A25DDFF562B83A00985D84D79FF0964A88601",
+        "Bytes": 2496
     },
     {
-        "Path":  "js\\request.js",
-        "SHA256":  "7E58B569C2394EF282BBA6931D0FF34360E2301D8D8B097B1D1C608C4D289DC2",
-        "Bytes":  1754
+        "Path": "js\\request.js",
+        "SHA256": "7E58B569C2394EF282BBA6931D0FF34360E2301D8D8B097B1D1C608C4D289DC2",
+        "Bytes": 1754
     },
     {
-        "Path":  "js\\status.js",
-        "SHA256":  "86FFB89695F0E84B4D08C14D9D1456A9F12D088ED534794FAD79F4A0510AF27F",
-        "Bytes":  1867
+        "Path": "js\\status.js",
+        "SHA256": "86FFB89695F0E84B4D08C14D9D1456A9F12D088ED534794FAD79F4A0510AF27F",
+        "Bytes": 1867
     },
     {
-        "Path":  "js\\theme.js",
-        "SHA256":  "CD5D303401E40EE0EAF23F62FEF82774DB7EAE39689C28B4441F6553D9333A37",
-        "Bytes":  848
+        "Path": "js\\theme.js",
+        "SHA256": "CD5D303401E40EE0EAF23F62FEF82774DB7EAE39689C28B4441F6553D9333A37",
+        "Bytes": 848
     },
     {
-        "Path":  "login.html",
-        "SHA256":  "6984B573D53B83235BDB772B500370C512C46635A172EA2E0553EFE85FACB15C",
-        "Bytes":  2274
+        "Path": "login.html",
+        "SHA256": "6984B573D53B83235BDB772B500370C512C46635A172EA2E0553EFE85FACB15C",
+        "Bytes": 2274
     },
     {
-        "Path":  "request.html",
-        "SHA256":  "1B5CBA58503D9AF591B06E5CF0DA5046FE8EA20C56B6710ED95589CA66392B61",
-        "Bytes":  1995
+        "Path": "request.html",
+        "SHA256": "1B5CBA58503D9AF591B06E5CF0DA5046FE8EA20C56B6710ED95589CA66392B61",
+        "Bytes": 1995
     },
     {
-        "Path":  "status.html",
-        "SHA256":  "6BB4DD423D236A553921C46C0840B18C33A4771DA0F852AB2B22AF28D7F819C4",
-        "Bytes":  1190
+        "Path": "status.html",
+        "SHA256": "6BB4DD423D236A553921C46C0840B18C33A4771DA0F852AB2B22AF28D7F819C4",
+        "Bytes": 1190
     }
-]
+]\n
