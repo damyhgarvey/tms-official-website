@@ -1,3 +1,4 @@
+const API_BASE='https://harbor-plugins-sheer-receiving.trycloudflare.com';
 const form=document.querySelector('#requestForm');
 const status=document.querySelector('#formStatus');
 const offerInput=document.querySelector('#offerId');
@@ -16,7 +17,7 @@ form?.addEventListener('submit',async event=>{
   delete data.offer_id;
   status.textContent='Enregistrement de la demande…'; status.classList.remove('success');
   try{
-    const response=await fetch('/api/requests',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+    const response=await fetch(`${API_BASE}/api/requests`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
     const result=await response.json(); if(!response.ok) throw new Error(result.error||'Erreur serveur');
     const id=result.request.id;
     status.innerHTML=`Demande <strong>${id}</strong> enregistrée. <a href="status.html?id=${encodeURIComponent(id)}">Suivre la demande →</a>`;
