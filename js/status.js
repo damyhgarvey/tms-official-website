@@ -1,4 +1,4 @@
-const API_BASE='https://harbor-plugins-sheer-receiving.trycloudflare.com';
+const API_BASE='https://mph-recordings-concord-restaurant.trycloudflare.com';
 const input=document.querySelector('#requestId');
 const button=document.querySelector('#check');
 const message=document.querySelector('#statusMessage');
