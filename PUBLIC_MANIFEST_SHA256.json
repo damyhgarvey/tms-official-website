@@ -1,0 +1,42 @@
+﻿[
+    {
+        "Path":  "assets\\brand\\tms-logo.svg",
+        "SHA256":  "D4AF4DDD563C5AA08ADBDAD84E96559DCBAA46F40C4C86288062BD7753B02739",
+        "Bytes":  520
+    },
+    {
+        "Path":  "css\\style.css",
+        "SHA256":  "634A630AB177D1FFD61681404FAFC3F0F6A1F0953A02B5B2DFBED4EE8B9FF031",
+        "Bytes":  9136
+    },
+    {
+        "Path":  "index.html",
+        "SHA256":  "976A2FB222DE462072D7279A50000C907FA802C4A944E7DDAC368ED5CF038519",
+        "Bytes":  6277
+    },
+    {
+        "Path":  "js\\app.js",
+        "SHA256":  "955EB8831104CE3F3C92AF1B0442ABA07077C781718A28449593DF3C715D37F2",
+        "Bytes":  1109
+    },
+    {
+        "Path":  "js\\request.js",
+        "SHA256":  "3F2B39954663ACFB117E349DD82BED732CD2CFB262ABFCC89AE7F6F89B41D067",
+        "Bytes":  1236
+    },
+    {
+        "Path":  "js\\status.js",
+        "SHA256":  "64937BD9B78A08E71F50E2108573E1617DCC340B091EE12B8EF6AD545B122153",
+        "Bytes":  1760
+    },
+    {
+        "Path":  "request.html",
+        "SHA256":  "B8FC60AF3AA5514BF898DAD23519E15A072152FDDF173EDB6AE785E336A6F804",
+        "Bytes":  1623
+    },
+    {
+        "Path":  "status.html",
+        "SHA256":  "2167629748529FA5ADD3AAD2045D92BA48B2A3F16B52EDD81C6ADE7F2B378950",
+        "Bytes":  1153
+    }
+]
