@@ -1,4 +1,4 @@
-const API_BASE='https://mph-recordings-concord-restaurant.trycloudflare.com';
+const API_BASE='https://damyhgarvey.tail4ccb28.ts.net';
 const input=document.querySelector('#requestId');
 const button=document.querySelector('#check');
 const message=document.querySelector('#statusMessage');
