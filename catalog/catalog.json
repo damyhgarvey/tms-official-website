@@ -1,76 +1,385 @@
 {
-    "catalog":  "TMS PUBLIC CATALOG",
-    "generated_from":  "TMS_OPERATIONALIZATION_1.0",
-    "channel":  "TMS Website",
-    "execution_mode":  "VERIFICATION_ONLY",
-    "external_action":  false,
-    "payment_external_transaction":  false,
-    "delivery_external_action":  false,
-    "offers":  [
-                   {
-                       "offer_id":  "OFFER-001",
-                       "name":  "CV professionnel",
-                       "category":  "Digital",
-                       "price_mga":  5000,
-                       "margin_mga":  -10000,
-                       "margin_pct":  -200,
-                       "roi_pct":  -66.67,
-                       "description":  "CV professionnel clair, structurÃ© et adaptÃ© Ã  votre profil pour vos candidatures et opportunitÃ©s.",
-                       "status":  "AVAILABLE",
-                       "execution_mode":  "VERIFICATION_ONLY",
-                       "external_action":  false
-                   },
-                   {
-                       "offer_id":  "OFFER-002",
-                       "name":  "Lettre professionnelle",
-                       "category":  "Digital",
-                       "price_mga":  10000,
-                       "margin_mga":  5000,
-                       "margin_pct":  50,
-                       "roi_pct":  100,
-                       "description":  "Lettre professionnelle personnalisÃ©e pour candidature, demande ou dÃ©marche administrative.",
-                       "status":  "AVAILABLE",
-                       "execution_mode":  "VERIFICATION_ONLY",
-                       "external_action":  false
-                   },
-                   {
-                       "offer_id":  "OFFER-003",
-                       "name":  "Diagnostic informatique",
-                       "category":  "Service",
-                       "price_mga":  30000,
-                       "margin_mga":  20000,
-                       "margin_pct":  66.67,
-                       "roi_pct":  200,
-                       "description":  "Diagnostic informatique orientÃ© identification de panne, Ã©tat du poste et recommandations d\u0027action.",
-                       "status":  "UNAVAILABLE",
-                       "execution_mode":  "VERIFICATION_ONLY",
-                       "external_action":  false
-                   },
-                   {
-                       "offer_id":  "OFFER-005",
-                       "name":  "Pack crÃ©ation catalogue",
-                       "category":  "Digital",
-                       "price_mga":  150000,
-                       "margin_mga":  90000,
-                       "margin_pct":  60,
-                       "roi_pct":  150,
-                       "description":  "Pack de crÃ©ation d\u0027un catalogue commercial structurÃ© pour prÃ©senter vos produits ou services.",
-                       "status":  "AVAILABLE",
-                       "execution_mode":  "VERIFICATION_ONLY",
-                       "external_action":  false
-                   },
-                   {
-                       "offer_id":  "OFFER-006",
-                       "name":  "Support informatique",
-                       "category":  "Service",
-                       "price_mga":  40000,
-                       "margin_mga":  15000,
-                       "margin_pct":  37.5,
-                       "roi_pct":  60,
-                       "description":  "Support informatique pour assistance, configuration, rÃ©solution de problÃ¨mes et conseils pratiques.",
-                       "status":  "AVAILABLE",
-                       "execution_mode":  "VERIFICATION_ONLY",
-                       "external_action":  false
-                   }
-               ]
+    "catalog": "TMS MADAGASCAR 1.0",
+    "version": "1.0",
+    "currency": "MGA",
+    "market": "Madagascar",
+    "execution_mode": "VERIFICATION_ONLY",
+    "external_action": false,
+    "payment_external_transaction": false,
+    "delivery_external_action": false,
+    "offers": [
+        {
+            "offer_id": "MAD-A01",
+            "name": "CV professionnel Essentiel",
+            "category": "Digital",
+            "price_mga": 5000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24 h"
+        },
+        {
+            "offer_id": "MAD-A02",
+            "name": "CV professionnel Premium",
+            "category": "Digital",
+            "price_mga": 10000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24-48 h"
+        },
+        {
+            "offer_id": "MAD-A03",
+            "name": "Lettre professionnelle",
+            "category": "Digital",
+            "price_mga": 10000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24 h"
+        },
+        {
+            "offer_id": "MAD-A04",
+            "name": "Pack CV + Lettre",
+            "category": "Digital",
+            "price_mga": 15000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24-48 h"
+        },
+        {
+            "offer_id": "OFFER-003",
+            "name": "Diagnostic informatique",
+            "category": "Service",
+            "price_mga": 30000,
+            "pricing_type": "FIXED",
+            "description": "Diagnostic informatique actuellement indisponible.",
+            "status": "UNAVAILABLE",
+            "execution_mode": "VERIFICATION_ONLY",
+            "external_action": false
+        },
+        {
+            "offer_id": "MAD-A05",
+            "name": "Correction / mise en forme document",
+            "category": "Digital",
+            "price_mga": 10000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24 h"
+        },
+        {
+            "offer_id": "MAD-A06",
+            "name": "Saisie Word / Excel",
+            "category": "Digital",
+            "price_mga": 10000,
+            "pricing_unit": "heure",
+            "pricing_type": "UNIT",
+            "status": "AVAILABLE",
+            "delivery_target": "selon volume"
+        },
+        {
+            "offer_id": "MAD-A07",
+            "name": "Traduction FR / MG",
+            "category": "Digital",
+            "price_mga": 15000,
+            "price_unit": "page",
+            "pricing_type": "UNIT",
+            "status": "AVAILABLE",
+            "delivery_target": "24-48 h"
+        },
+        {
+            "offer_id": "MAD-B01",
+            "name": "Flyer professionnel simple",
+            "category": "Business",
+            "price_mga": 25000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24-48 h"
+        },
+        {
+            "offer_id": "MAD-B02",
+            "name": "Pack 3 visuels réseaux sociaux",
+            "category": "Business",
+            "price_mga": 50000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "48 h"
+        },
+        {
+            "offer_id": "MAD-B03",
+            "name": "Fiche produit / service",
+            "category": "Business",
+            "price_mga": 10000,
+            "price_unit": "unité",
+            "pricing_type": "UNIT",
+            "status": "AVAILABLE",
+            "delivery_target": "24 h"
+        },
+        {
+            "offer_id": "MAD-B04",
+            "name": "Pack 10 fiches produits",
+            "category": "Business",
+            "price_mga": 75000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "48-72 h"
+        },
+        {
+            "offer_id": "MAD-B05",
+            "name": "Présentation commerciale PDF",
+            "category": "Business",
+            "price_mga": 75000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "48-72 h"
+        },
+        {
+            "offer_id": "MAD-B06",
+            "name": "Catalogue commercial professionnel",
+            "category": "Business",
+            "price_mga": 150000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "3-5 jours"
+        },
+        {
+            "offer_id": "MAD-C01",
+            "name": "Assistance informatique Express",
+            "category": "IT Support",
+            "price_mga": 20000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "selon disponibilité"
+        },
+        {
+            "offer_id": "MAD-C02",
+            "name": "Support informatique 1 h",
+            "category": "IT Support",
+            "price_mga": 30000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "sur rendez-vous"
+        },
+        {
+            "offer_id": "MAD-C03",
+            "name": "Support informatique 2 h",
+            "category": "IT Support",
+            "price_mga": 50000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "sur rendez-vous"
+        },
+        {
+            "offer_id": "MAD-C04",
+            "name": "Installation / configuration logicielle",
+            "category": "IT Support",
+            "price_min_mga": 25000,
+            "price_max_mga": 40000,
+            "pricing_type": "RANGE",
+            "status": "AVAILABLE",
+            "delivery_target": "sur rendez-vous"
+        },
+        {
+            "offer_id": "MAD-C05",
+            "name": "Nettoyage / optimisation PC",
+            "category": "IT Support",
+            "price_min_mga": 40000,
+            "price_max_mga": 60000,
+            "pricing_type": "RANGE",
+            "status": "AVAILABLE",
+            "delivery_target": "sur rendez-vous"
+        },
+        {
+            "offer_id": "MAD-C06",
+            "name": "Mise en place d'une sauvegarde",
+            "category": "IT Support",
+            "price_min_mga": 30000,
+            "price_max_mga": 50000,
+            "pricing_type": "RANGE",
+            "status": "AVAILABLE",
+            "delivery_target": "sur rendez-vous"
+        },
+        {
+            "offer_id": "MAD-C07",
+            "name": "Pack maintenance PC",
+            "category": "IT Support",
+            "price_mga": 75000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "sur rendez-vous"
+        },
+        {
+            "offer_id": "MAD-C08",
+            "name": "Support informatique mensuel",
+            "category": "IT Support",
+            "price_min_mga": 100000,
+            "price_max_mga": 150000,
+            "pricing_type": "MONTHLY_RANGE",
+            "status": "SUR_DEVIS",
+            "delivery_target": "planifié"
+        },
+        {
+            "offer_id": "MAD-D01",
+            "name": "Mini-page professionnelle",
+            "category": "Web",
+            "price_mga": 150000,
+            "pricing_type": "FIXED",
+            "status": "SUR_DEVIS",
+            "delivery_target": "3-5 jours"
+        },
+        {
+            "offer_id": "MAD-D02",
+            "name": "Landing page professionnelle",
+            "category": "Web",
+            "price_mga": 250000,
+            "pricing_type": "FIXED",
+            "status": "SUR_DEVIS",
+            "delivery_target": "5-7 jours"
+        },
+        {
+            "offer_id": "MAD-D03",
+            "name": "Site vitrine Starter",
+            "category": "Web",
+            "price_min_mga": 500000,
+            "pricing_type": "STARTING_FROM",
+            "status": "SUR_DEVIS",
+            "delivery_target": "qualification"
+        },
+        {
+            "offer_id": "MAD-D04",
+            "name": "Site vitrine Business",
+            "category": "Web",
+            "price_min_mga": 750000,
+            "price_max_mga": 1000000,
+            "pricing_type": "RANGE",
+            "status": "SUR_DEVIS",
+            "delivery_target": "qualification"
+        },
+        {
+            "offer_id": "MAD-D05",
+            "name": "Maintenance web légère",
+            "category": "Web",
+            "price_min_mga": 50000,
+            "price_max_mga": 100000,
+            "pricing_type": "MONTHLY_RANGE",
+            "status": "SUR_DEVIS",
+            "delivery_target": "planifié"
+        },
+        {
+            "offer_id": "MAD-E01",
+            "name": "Détection / qualification appareil",
+            "category": "TMS Toolkit",
+            "price_mga": 15000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24 h"
+        },
+        {
+            "offer_id": "MAD-E02",
+            "name": "Vérification ADB / Fastboot",
+            "category": "TMS Toolkit",
+            "price_mga": 20000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24 h"
+        },
+        {
+            "offer_id": "MAD-E03",
+            "name": "Diagnostic logiciel appareil",
+            "category": "TMS Toolkit",
+            "price_mga": 30000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24-48 h"
+        },
+        {
+            "offer_id": "MAD-E04",
+            "name": "Rapport technique appareil",
+            "category": "TMS Toolkit",
+            "price_mga": 30000,
+            "pricing_type": "FIXED",
+            "status": "AVAILABLE",
+            "delivery_target": "24-48 h"
+        },
+        {
+            "offer_id": "MAD-E05",
+            "name": "Préparation / vérification firmware",
+            "category": "TMS Toolkit",
+            "price_min_mga": 30000,
+            "price_max_mga": 50000,
+            "pricing_type": "RANGE",
+            "status": "SUR_DEVIS",
+            "delivery_target": "qualification"
+        },
+        {
+            "offer_id": "MAD-E06",
+            "name": "Assistance récupération logicielle",
+            "category": "TMS Toolkit",
+            "price_min_mga": 50000,
+            "price_max_mga": 100000,
+            "pricing_type": "RANGE",
+            "status": "SUR_DEVIS",
+            "delivery_target": "qualification"
+        },
+        {
+            "offer_id": "MAD-E07",
+            "name": "Intervention technique avancée",
+            "category": "TMS Toolkit",
+            "pricing_type": "QUOTE_ONLY",
+            "status": "SUR_DEVIS",
+            "delivery_target": "qualification"
+        }
+    ],
+    "packs": [
+        {
+            "offer_id": "MAD-F01",
+            "name": "Pack Micro-Entreprise",
+            "price_mga": 100000,
+            "status": "SUR_DEVIS"
+        },
+        {
+            "offer_id": "MAD-F02",
+            "name": "Pack Business Starter",
+            "price_mga": 250000,
+            "status": "SUR_DEVIS"
+        },
+        {
+            "offer_id": "MAD-F03",
+            "name": "Pack Business Digital",
+            "price_mga": 500000,
+            "status": "SUR_DEVIS"
+        },
+        {
+            "offer_id": "MAD-F04",
+            "name": "Pack Business Pro",
+            "price_min_mga": 750000,
+            "price_max_mga": 1000000,
+            "status": "SUR_DEVIS"
+        }
+    ],
+    "hold_offers": [
+        {
+            "offer_id": "MAD-H01",
+            "name": "Diagnostic informatique standard",
+            "price_mga": 30000,
+            "status": "HOLD"
+        },
+        {
+            "offer_id": "MAD-H02",
+            "name": "Flash réel téléphone client",
+            "status": "HOLD_FORBIDDEN"
+        },
+        {
+            "offer_id": "MAD-H03",
+            "name": "Effacement / déverrouillage matériel",
+            "status": "HOLD"
+        },
+        {
+            "offer_id": "MAD-H04",
+            "name": "Paiement automatisé",
+            "status": "HOLD"
+        },
+        {
+            "offer_id": "MAD-H05",
+            "name": "Livraison automatisée",
+            "status": "HOLD"
+        }
+    ]
 }

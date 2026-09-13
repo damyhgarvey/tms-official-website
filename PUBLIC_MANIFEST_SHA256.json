@@ -16,8 +16,8 @@
     },
     {
         "Path": "catalog\\catalog.json",
-        "SHA256": "977A8AADA0F45E6C7A95D956C32522267ECF224E11EB61D88AA80239FB780EBC",
-        "Bytes": 3777
+        "SHA256": "DB1E268AFF627F2F75D97E747816AB6F8027E57D277FA6F5E5FFA46C7F9446C6",
+        "Bytes": 12217
     },
     {
         "Path": "css\\style.css",
@@ -36,8 +36,8 @@
     },
     {
         "Path": "js\\catalog.js",
-        "SHA256": "EA60BEADC5C5FCE6D72548BAEA58F748BC68A0F45A4766732F8590A33EB91B56",
-        "Bytes": 1156
+        "SHA256": "84380295C0FDD04B43C42A9740B7C7DDDA4BEBB9134EC69CEB7A16785B74E459",
+        "Bytes": 1959
     },
     {
         "Path": "js\\product-preview.js",
