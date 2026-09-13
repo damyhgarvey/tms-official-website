@@ -16,8 +16,8 @@
     },
     {
         "Path": "catalog\\catalog.json",
-        "SHA256": "99FC3E9771937F0A0E763A657F00F5295E03E21C07DA50BAD82EA284A161E608",
-        "Bytes": 2586
+        "SHA256": "977A8AADA0F45E6C7A95D956C32522267ECF224E11EB61D88AA80239FB780EBC",
+        "Bytes": 3777
     },
     {
         "Path": "css\\style.css",
@@ -74,4 +74,4 @@
         "SHA256": "6BB4DD423D236A553921C46C0840B18C33A4771DA0F852AB2B22AF28D7F819C4",
         "Bytes": 1190
     }
-]\n
+]
