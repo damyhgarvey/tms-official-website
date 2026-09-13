@@ -11,10 +11,10 @@ function saveOffline(data){
 form?.addEventListener('submit',async event=>{
   event.preventDefault();
   const data=Object.fromEntries(new FormData(form));
-  const offer=String(data.offer_id||'').trim();
+  const offer=String(data.offerId||'').trim();
   const baseMessage=String(data.message||'').trim();
   data.message=offer?`OFFRE=${offer}\n${baseMessage}`:baseMessage;
-  delete data.offer_id;
+  delete data.offerId;
   status.textContent='Enregistrement de la demande…'; status.classList.remove('success');
   try{
     const response=await fetch(`${API_BASE}/api/requests`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
