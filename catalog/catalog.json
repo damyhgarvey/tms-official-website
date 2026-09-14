@@ -45,17 +45,6 @@
             "delivery_target": "24-48 h"
         },
         {
-            "offer_id": "OFFER-003",
-            "name": "Diagnostic informatique",
-            "category": "Service",
-            "price_mga": 30000,
-            "pricing_type": "FIXED",
-            "description": "Diagnostic informatique actuellement indisponible.",
-            "status": "UNAVAILABLE",
-            "execution_mode": "VERIFICATION_ONLY",
-            "external_action": false
-        },
-        {
             "offer_id": "MAD-A05",
             "name": "Correction / mise en forme document",
             "category": "Digital",
